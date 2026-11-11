@@ -1,6 +1,9 @@
 # Node.js and TypeScript dependencies and build output
 node_modules/
 
+# Maven build output
+target/
+
 # Test output and coverage
 coverage/
 junit.xml
@@ -16,3 +19,5 @@ logs/
 
 # Editor and operating-system files
 .vscode/
+.idea/
+*.iml

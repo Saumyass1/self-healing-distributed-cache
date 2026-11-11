@@ -2,7 +2,25 @@
 
 ## Project Status
 
-This repository currently contains planning documentation only. No cache, coordinator, dashboard, infrastructure, or automated tests have been implemented.
+Stage 1 provides a Spring Boot application foundation and an application-context test. No cache, coordinator, dashboard, or infrastructure features have been implemented.
+
+## Stage 1 Foundation
+
+The executable foundation uses Java 17, Spring Boot 4.1.2, Maven, Spring Boot WebMVC, and JUnit 5 through Spring Boot Test. The planned cache behavior remains unimplemented at this stage.
+
+Run the test suite on Windows with:
+
+```powershell
+.\mvnw.cmd test
+```
+
+Start the application locally with:
+
+```powershell
+.\mvnw.cmd spring-boot:run
+```
+
+The application starts on port `8080`. No HTTP endpoints have been added yet.
 
 ## Overview
 
