@@ -1,0 +1,18 @@
+# Node.js and TypeScript dependencies and build output
+node_modules/
+
+# Test output and coverage
+coverage/
+junit.xml
+
+# Runtime logs and local state
+logs/
+*.seed
+
+# Local environment and tooling configuration
+.env
+.env.*
+.cache/
+
+# Editor and operating-system files
+.vscode/
